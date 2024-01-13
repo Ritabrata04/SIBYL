@@ -9,7 +9,7 @@ const ContactPage = () => {
     jobTitle: '',
     age: '',
     numberOfSwitches: '',
-    careerSwitches: '', // default value for the dropdown
+    
   });
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -52,9 +52,6 @@ const ContactPage = () => {
           />
         </label>
 
-
-
-
         <label>
           Job Title:
           <br />
@@ -88,23 +85,9 @@ const ContactPage = () => {
         </label>
 
 
-        {/* Career Switches */}
-
-
         <button className="submitbtn" type="submit">Submit</button>
       </form>
 
-      {/* Display the career switch list */}
-      {Array.isArray(formData.careerSwitches) && formData.careerSwitches.length > 0 && (
-        <div>
-          <h2>The Career Options You Can Switch Into:</h2>
-          <ul>
-            {formData.careerSwitches.slice(0, 5).map((career, index) => (
-              <li key={index}>{career}</li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };
