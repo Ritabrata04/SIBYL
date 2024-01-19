@@ -6,6 +6,7 @@
 # SIBYL: STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY
 <p align="center"> 
     <!-- Badges for Licenses, Status, etc. -->
+    [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 </p>
 
 SIBYL is a cutting-edge machine learning ensemble model designed to empower decision-making processes. Developed as part of Dell's Hack2Hire initiative, this project leverages the power of data-driven insights to shape your future strategies. Deployed using Streamlit, SIBYL offers a seamless and interactive user experience.
