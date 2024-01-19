@@ -22,6 +22,7 @@ SIBYL is a cutting-edge machine learning ensemble model designed to empower deci
 - [REPOSITORY STRUCTURE](#Repository-Structure)
 - [DEPLOYMENT](#deployment)
 - [TEAM](#team)
+- [CITATION](#citation)
   
 
 <!-- /TOC -->
@@ -60,10 +61,16 @@ To deploy SIBYL on Streamlit:
 Meet the brilliant minds behind SIBYL:
 
 <p align="center" width="100%">
-    <img src="path_to_your_team_image" alt="Team" width="70%">
+    <img src="dell_team007.jpg" alt="Team" width="70%">
 </p>
-
-<!-- Include brief profiles or links to LinkedIn/GitHub profiles -->
+<p align="center">
+    [From Right to Left] 
+    <a href="https://github.com/Ritabrata04" target="_blank">Ritabrata</a>,
+    <a href="https://github.com" target="_blank">Yashika</a>,
+    <a href="https://github.com/tangorishi" target="_blank">Rishi</a>,
+    <a href="https://github.com/AnkikaGithub" target="_blank">Ankika</a>,
+    <a href="https://github.com/DivyangshuGithub" target="_blank">Divyangshu</a>
+</p>
 
 ## Model Accuracies
 
@@ -76,13 +83,3 @@ Meet the brilliant minds behind SIBYL:
 <p align="center" width="100%">
     <img src="path_to_individual_model_graphic" alt="Individual Models" width="70%">
 </p>
-
-## CITATION
-
-@software{SIBYL.ai,
-  author = {R. Chakraborty,R. Joshi,D. Aggarwal,A. Chatterjee,Y. Agnihotri},
-  title = {{SIBYL:STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY}},
-  url = {https://github.com/Ritabrata04/Employee-Career-Path-Navigator},
-  version = {1.0.1},
-  year = {2024}
-}
