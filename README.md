@@ -68,10 +68,10 @@ Meet the brilliant minds behind SIBYL:
 <p align="center">
     [From Right to Left] 
     <a href="https://github.com/Ritabrata04" target="_blank">Ritabrata</a>,
-    <a href="https://github.com" target="_blank">Yashika</a>,
+    <a href="https://github.com/yashikaagnihotri" target="_blank">Yashika</a>,
     <a href="https://github.com/tangorishi" target="_blank">Rishi</a>,
     <a href="https://github.com/AnkikaGithub" target="_blank">Ankika</a>,
-    <a href="https://github.com/DivyangshuGithub" target="_blank">Divyangshu</a>
+    <a href="https://github.com/thedeskguy" target="_blank">Divyangshu</a>
 </p>
 
 
