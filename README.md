@@ -1,6 +1,8 @@
 
 <p align="center" width="100%">
-    <a><img src="NAGIVATE CAREER (7).png" alt="Title" style="width: 20%; min-width: 300px; display: block; margin: auto;"></a>
+    <a>
+        <img src="NAGIVATE CAREER (7).png" alt="Title" style="display: block; margin: auto; border-radius: 50%; width: 50%; height: auto;">
+    </a>
 </p>
 
 
