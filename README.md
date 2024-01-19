@@ -25,7 +25,7 @@ SIBYL is a cutting-edge machine learning ensemble model designed to empower deci
 
 <!-- TOC -->
 
-- [REPOSITORY STRUCTURE](#Repository-Structure)
+- [REPOSITORY STRUCTURE](#Project-Structure)
 - [DEPLOYMENT](#deployment)
 - [TEAM](#team)
 
@@ -74,7 +74,7 @@ Meet the brilliant minds behind SIBYL:
     <a href="https://github.com/yashikaagnihotri" target="_blank">Yashika</a>,
     <a href="https://github.com/tangorishi" target="_blank">Rishi</a>,
     <a href="https://github.com/AnkikaGithub" target="_blank">Ankika</a>,
-    <a href="https://github.com/thedeskguy" target="_blank">Divyangshu</a>
+    <a href="https://github.com/thedeskguy" target="_blank">Divyanshu</a>
 </p>
 
 
