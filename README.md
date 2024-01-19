@@ -15,6 +15,9 @@ SIBYL is a cutting-edge machine learning ensemble model designed to empower deci
 
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
+![GitHub stars](https://img.shields.io/github/stars/Ritabrata04/Employee-Career-Path-Navigator?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Ritabrata04/Employee-Career-Path-Navigator?style=social)
+
 
 <p align="center" width="100%">
     <img src="sibyl-qr.png" alt="SIBYL Deployment" width="70%">
