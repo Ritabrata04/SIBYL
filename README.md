@@ -134,3 +134,12 @@ from xgboost import XGBClassifier
 <p align="center" width="100%">
     <img src="model_accuracies.jpg" alt="Model Accuracies" width="70%">
 </p>
+
+## User Interface
+
+<p align="center" width="100%">
+    <img src="sibylaiwork.png" alt="Model Accuracies" width="70%">
+</p>
+<p align="center" width="100%">
+    <img src="sibylaiworkk.png" alt="Model Accuracies" width="70%">
+</p>
