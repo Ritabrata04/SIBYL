@@ -5,8 +5,9 @@
     </a>
 </p>
 
+# <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">SIBYL: STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
 
-# SIBYL: STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY
+
 <p align="center"> 
     <!-- Badges for Licenses, Status, etc. -->
 </p>
