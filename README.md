@@ -72,10 +72,10 @@ Meet the brilliant minds behind SIBYL:
     <a href="https://github.com/DivyangshuGithub" target="_blank">Divyangshu</a>
 </p>
 
-## Model Accuracies
+## Model Performance
 
 <p align="center" width="100%">
-    <img src="path_to_model_accuracies_graphic" alt="Model Accuracies" width="70%">
+    <img src="model_accuracies.jpg" alt="Model Accuracies" width="70%">
 </p>
 
 ## Individual Model Graphics
