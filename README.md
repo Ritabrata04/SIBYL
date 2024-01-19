@@ -16,22 +16,21 @@ SIBYL is a cutting-edge machine learning ensemble model designed to empower deci
 
 <!-- TOC -->
 
-- [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [Team](#team)
-- [License](#license)
+- [REPOSITORY STRUCTURE](#project-structure)
+- [DEPLOYMENT](#deployment)
+- [TEAM](#team)
+  
 
 <!-- /TOC -->
 
 ## Project Structure
 
 ```
-SIBYL/
+Employee-Career-Path-Navigator/
 │
-├── models/               # Individual model files and ensemble model
+├── pythonFunctions       # Model training,prediction and GUI
 ├── data/                 # Dataset used for training and testing
-├── notebooks/            # Jupyter notebooks for exploration and analysis
-├── streamlit_app.py      # Streamlit app deployment file
+├── .streamlit/           # Streamlit app deployment file
 ├── requirements.txt      # Dependencies for the project
 └── README.md
 ```
