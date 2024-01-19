@@ -1,6 +1,6 @@
 
 <p align="center" width="100%">
-    <img src="path_to_your_main_graphic" alt="SIBYL: Strategic Intelligence for Building Your Legacy" width="50%">
+    <img src="NAGIVATE CAREER (7).png" alt="SIBYL: Strategic Intelligence for Building Your Legacy" width="50%">
 </p>
 
 # SIBYL: STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY
