@@ -75,14 +75,43 @@ Meet the brilliant minds behind SIBYL:
     <a href="https://github.com/DivyangshuGithub" target="_blank">Divyangshu</a>
 </p>
 
+
+## Models
+
+<p align="center" width="100%">
+    <img src="Supplementary Materials/RANDOM FOREST.jpg" alt="Random Forest Model" width="70%">
+    <br>Random Forest (RF)
+</p>
+<p>
+    RF: Random Forest refers to a statistical machine learning approach which combines multiple decision trees to improve prediction accuracy and control over-fitting. This was chosen for its ease of handling large datasets with higher dimensional spaces. In our code, it enhances the job role prediction reliability by utilizing multiple decision trees.
+</p>
+
+<p align="center" width="100%">
+    <img src="Supplementary Materials/DECISION TREE.png" alt="Decision Tree Model" width="70%">
+    <br>Decision Tree (DT)
+</p>
+<p>
+    DT: Decision Tree constructs a tree-like model of decisions based on the features of the dataset. It has been chosen for its effectiveness for classification of tasks due to its simplicity and interpretability. For our use case, it categorizes job roles based on various input features, making decisions at each node of the tree.
+</p>
+
+<p align="center" width="100%">
+    <img src="Supplementary Materials/SVM MODEL.png" alt="SVM Model" width="70%">
+    <br>Support Vector Machine (SVM)
+</p>
+<p>
+    SVM: SVM is a powerful classifier that works by finding a hyperplane in an N-dimensional space (N — the number of features) that distinctly classifies the data points. It is known for its versatility and its effectiveness in high-dimensional spaces. Here, it segregates job roles as per feature set boundaries.
+</p>
+
+<p align="center" width="100%">
+    <img src="Supplementary Materials/XGB MODEL.png" alt="XGBoost Model" width="70%">
+    <br>XGBoost (XGB)
+</p>
+<p>
+    XGB: XGBoost stands for eXtreme Gradient Boosting. It serves as an efficient and scalable implementation of the gradient boosting framework. It improves the model's performance by sequentially correcting errors made by previous trees. It serves as an optimal solution due to its speed and performance in structured data.
+</p>
+
 ## Model Performance
 
 <p align="center" width="100%">
     <img src="model_accuracies.jpg" alt="Model Accuracies" width="70%">
-</p>
-
-## Individual Model Graphics
-
-<p align="center" width="100%">
-    <img src="path_to_individual_model_graphic" alt="Individual Models" width="70%">
 </p>
