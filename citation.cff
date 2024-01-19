@@ -1,0 +1,18 @@
+
+cff-version: 1.0.3
+message: "If you use SIBYL in your research, please cite it as follows."
+title: "SIBYL: STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY"
+version: 1.0.1
+authors:
+  - family-names: Chakraborty
+    given-names: R.
+  - family-names: Joshi
+    given-names: R.
+  - family-names: Aggarwal
+    given-names: D.
+  - family-names: Chatterjee
+    given-names: A.
+  - family-names: Agnihotri
+    given-names: Y.
+date-released: 2024-01-01
+repository-code: "https://github.com/Ritabrata04/Employee-Career-Path-Navigator"
