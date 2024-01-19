@@ -1,7 +1,8 @@
 
 <p align="center" width="100%">
-    <img src="NAGIVATE CAREER (7).png" alt="SIBYL: Strategic Intelligence for Building Your Legacy" width="50%">
+    <a><img src="NAGIVATE CAREER (7).png" alt="Title" style="width: 20%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
+
 
 # SIBYL: STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY
 <p align="center"> 
