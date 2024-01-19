@@ -25,8 +25,7 @@ SIBYL is a cutting-edge machine learning ensemble model designed to empower deci
 - [REPOSITORY STRUCTURE](#Repository-Structure)
 - [DEPLOYMENT](#deployment)
 - [TEAM](#team)
-- [CITATION](#citation)
-  
+
 
 <!-- /TOC -->
 
