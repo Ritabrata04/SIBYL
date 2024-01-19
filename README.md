@@ -41,7 +41,7 @@ To deploy SIBYL on Streamlit:
 
 1. Clone the repository: 
    ```
-   git clone https://github.com/yourusername/SIBYL.git
+   git clone https://github.com/Ritabrata04/Employee-Career-Path-Navigator.git
    ```
 2. Install dependencies:
    ```
@@ -49,7 +49,7 @@ To deploy SIBYL on Streamlit:
    ```
 3. Run the Streamlit app:
    ```
-   streamlit run streamlit_app.py
+   streamlit run app.py
    ```
 
 ## Team
