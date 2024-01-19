@@ -14,12 +14,12 @@ SIBYL is a cutting-edge machine learning ensemble model designed to empower deci
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)]()
 
 <p align="center" width="100%">
-    <img src="path_to_your_deployment_screenshot" alt="SIBYL Deployment" width="70%">
+    <img src="sibyl-qr.png" alt="SIBYL Deployment" width="70%">
 </p>
 
 <!-- TOC -->
 
-- [REPOSITORY STRUCTURE](#project-structure)
+- [REPOSITORY STRUCTURE](#Repository-Structure)
 - [DEPLOYMENT](#deployment)
 - [TEAM](#team)
   
@@ -77,6 +77,12 @@ Meet the brilliant minds behind SIBYL:
     <img src="path_to_individual_model_graphic" alt="Individual Models" width="70%">
 </p>
 
-## License
+## CITATION
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+@software{SIBYL.ai,
+  author = {R. Chakraborty,R. Joshi,D. Aggarwal,A. Chatterjee,Y. Agnihotri},
+  title = {{SIBYL:STRATEGIC INTELLIGENCE FOR BUILDING YOUR LEGACY}},
+  url = {https://github.com/Ritabrata04/Employee-Career-Path-Navigator},
+  version = {1.0.1},
+  year = {2024}
+}
