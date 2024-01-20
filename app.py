@@ -1,10 +1,16 @@
+
+# **1. Importing Necessary Libraries** 📚
+import streamlit as st
+st.set_page_config(
+    page_title="Sibyl.ai",
+    page_icon="💡",
+)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle 
 import time
-import streamlit as st
 from db import *
 
 pickleFile=open("weights.pkl","rb")
