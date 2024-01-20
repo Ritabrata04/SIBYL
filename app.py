@@ -1,5 +1,3 @@
-# **1. Importing Necessary Libraries** 📚
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -384,7 +382,7 @@ def main():
 
   Interested_subjects = st.selectbox(
     'Interested Subjects',
-    ('programming', 'Management', 'data engineering', 'networks', 'Software Engineering', 'cloud computing', 'parallel computing', 'IOT', 'Computer Architecture', 'hacking')
+    ('programming', 'Management', 'data engineering', 'networks', 'Software Engineering', 'parallel computing', 'IOT', 'Computer Architecture', 'hacking')
     )
   st.write('You selected: **{}**' .format(Interested_subjects))
 
@@ -402,25 +400,33 @@ def main():
 
   workshops = st.selectbox(
     'Workshops Attended',
-    ('Testing', 'database security', 'game development', 'data science', 'system designing', 'hacking', 'cloud computing', 'web technologies')
+    ('Testing', 'database security', 'game development', 'data science', 'system designing', 'hacking', 'web technologies')
     )
   st.write('You selected: **{}**' .format(workshops))
   
   Type_of_company_want_to_settle_in = st.selectbox(
     'Type of Company You Want to Settle In ',
-    ('BPA', 'Cloud Services', 'product development', 'Testing and Maintainance Services', 'SAaS services', 'Web Services', 'Finance', 'Sales and Marketing', 'Product based', 'Service Based')
+    ('BPA', 'product development', 'Testing and Maintainance Services', 'SAaS services', 'Web Services', 'Finance', 'Sales and Marketing', 'Product based', 'Service Based')
     )
   st.write('You selected: **{}**' .format(Type_of_company_want_to_settle_in))
   
   interested_career_area = st.selectbox(
-    'Interested Career Area',
-    ('testing', 'system developer', 'Business process analyst', 'security', 'developer', 'cloud computing')
+    'Interested Career ',
+    ('testing', 'system developer', 'Business process analyst', 'security', 'developer')
     )
   st.write('You selected: **{}**' .format(interested_career_area))
   
   result=""
+
+  def Predict():
+    msg = st.toast('Gathering inputs together...')
+    time.sleep(1)
+    msg.toast('Processing...')
+    time.sleep(1)
+    msg.toast('Ready!', icon = "🤓")
   
   if st.button("Predict"):
+    Predict()
     result=inputlist(Name,Contact_Number,Email_address,Logical_quotient_rating, coding_skills_rating, hackathons, 
                     public_speaking_points, self_learning_capability,Extra_courses_did, 
                      Taken_inputs_from_seniors_or_elders,worked_in_teams_ever, Introvert,
@@ -436,7 +442,7 @@ def main():
 
     # Balloons
     st.balloons()
-
+    st.success("🎉 Prediction Complete!")
     #result will be displayed if button is pressed
     st.success("Predicted Career Option : "
                "{}".format(result))
