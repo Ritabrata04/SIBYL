@@ -1,33 +1,20 @@
 # **1. Importing Necessary Libraries** 📚
-
+import streamlit as st
+st.set_page_config(
+    page_title="Sibyl.ai",
+    page_icon="💡",
+)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle 
 import time
-import streamlit as st
-from streamlit_gsheets import GSheetsConnection
-
 from db import *
-
-conn = st.connection("gsheets", type=GSheetsConnection)
-
-
 
 pickleFile=open("weights.pkl","rb")
 regressor=pickle.load(pickleFile) # our model
 
-def update_google_sheets(data):
-    # Fetch existing data
-    existing_data = conn.read(worksheet="Employee",usecols=list(range(3)), ttl=5)
-    existing_data = existing_data.dropna(how="all")
-
-    # Add the new data to the existing data
-    updated_df = pd.concat([existing_data, data], ignore_index=True)
-
-    # Update Google Sheets with the new data
-    conn.update(worksheet="Employee", data=updated_df)
 # **2. Loading Dataset**
 
 df = pd.read_csv('./data/mldata.csv')
@@ -173,15 +160,7 @@ def inputlist(Name,Contact_Number,Email_address,
       Type_of_company_want_to_settle_in, interested_career_area):
   #1,1,1,1,'Yes','Yes''Yes''Yes''Yes',"poor","poor","Smart worker", "Management","programming","Series","information security"."testing","BPA","testing"
   Afeed = [Logical_quotient_rating, coding_skills_rating, hackathons, public_speaking_points]
-   
-  user_data = pd.DataFrame({
-            "Name": [Name],
-            "Number": [Contact_Number],
-            "Email": [Email_address],
-            # Add other columns as needed
-        })
 
-  update_google_sheets(user_data)
   input_list_col = [self_learning_capability,Extra_courses_did,Taken_inputs_from_seniors_or_elders,worked_in_teams_ever,Introvert,reading_and_writing_skills,memory_capability_score,smart_or_hard_work,Management_or_Techinical,Interested_subjects,Interested_Type_of_Books,certifications,workshops,Type_of_company_want_to_settle_in,interested_career_area]
   feed = []
   K=0
@@ -287,7 +266,6 @@ def inputlist(Name,Contact_Number,Email_address,
   
   return(output)
 
-
 def main():
   
   # with st.spinner('Wait for it...'):
@@ -324,7 +302,6 @@ def main():
   st.markdown(html2,unsafe_allow_html=True) #simple html 
  
   st.sidebar.title("Your Information")
-  
 
   Name = st.sidebar.text_input("Full Name")
 
@@ -410,7 +387,7 @@ def main():
 
   Interested_subjects = st.selectbox(
     'Interested Subjects',
-    ('programming', 'Management', 'data engineering', 'networks', 'Software Engineering', 'cloud computing', 'parallel computing', 'IOT', 'Computer Architecture', 'hacking')
+    ('programming', 'Management', 'data engineering', 'networks', 'Software Engineering', 'parallel computing', 'IOT', 'Computer Architecture', 'hacking')
     )
   st.write('You selected: **{}**' .format(Interested_subjects))
 
@@ -428,31 +405,40 @@ def main():
 
   workshops = st.selectbox(
     'Workshops Attended',
-    ('Testing', 'database security', 'game development', 'data science', 'system designing', 'hacking', 'cloud computing', 'web technologies')
+    ('Testing', 'database security', 'game development', 'data science', 'system designing', 'hacking', 'web technologies')
     )
   st.write('You selected: **{}**' .format(workshops))
   
   Type_of_company_want_to_settle_in = st.selectbox(
     'Type of Company You Want to Settle In ',
-    ('BPA', 'Cloud Services', 'product development', 'Testing and Maintainance Services', 'SAaS services', 'Web Services', 'Finance', 'Sales and Marketing', 'Product based', 'Service Based')
+    ('BPA', 'product development', 'Testing and Maintainance Services', 'SAaS services', 'Web Services', 'Finance', 'Sales and Marketing', 'Product based', 'Service Based')
     )
   st.write('You selected: **{}**' .format(Type_of_company_want_to_settle_in))
   
   interested_career_area = st.selectbox(
-    'Interested Career Area',
-    ('testing', 'system developer', 'Business process analyst', 'security', 'developer', 'cloud computing')
+    'Interested Career ',
+    ('testing', 'system developer', 'Business process analyst', 'security', 'developer')
     )
   st.write('You selected: **{}**' .format(interested_career_area))
   
   result=""
+
+  def Predict():
+    msg = st.toast('Gathering inputs together...')
+    time.sleep(1)
+    msg.toast('Processing...')
+    time.sleep(1)
+    msg.toast('Ready!', icon = "🤓")
   
   if st.button("Predict"):
+    Predict()
     result=inputlist(Name,Contact_Number,Email_address,Logical_quotient_rating, coding_skills_rating, hackathons, 
                     public_speaking_points, self_learning_capability,Extra_courses_did, 
                      Taken_inputs_from_seniors_or_elders,worked_in_teams_ever, Introvert,
                      reading_and_writing_skills,memory_capability_score, smart_or_hard_work, 
                      Management_or_Techinical,Interested_subjects, Interested_Type_of_Books,
-                     certifications, workshops, Type_of_company_want_to_settle_in, interested_career_area)  
+                     certifications, workshops, Type_of_company_want_to_settle_in, interested_career_area) 
+
     # Progress bar
     my_bar = st.progress(0)
     for percent_complete in range(100):
@@ -461,7 +447,7 @@ def main():
 
     # Balloons
     st.balloons()
-
+    st.success("🎉 Prediction Complete!")
     #result will be displayed if button is pressed
     st.success("Predicted Career Option : "
                "{}".format(result))
