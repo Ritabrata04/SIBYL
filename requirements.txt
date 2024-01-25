@@ -1,0 +1,14 @@
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+numpy
+scipy
+scikit-learn==1.2.2
+matplotlib
+pandas
+flasgger
+streamlit
+seaborn
